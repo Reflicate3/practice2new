@@ -4,8 +4,8 @@
     <string name="button_strings">Декларативная кнопка</string>
     <string name="button_program">Программная кнопка</string>
     <string name="fio">ФИО:</string>
-    <string name="mark">Желаемая оценка</string>
-    <string name="group_number">Номер группы</string>
-    <string name="age">Возраст</string>
+    <string name="mark">Желаемая оценка:</string>
+    <string name="group_number">Номер группы:</string>
+    <string name="age">Возраст:</string>
 
 </resources>

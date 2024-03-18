@@ -23,28 +23,28 @@
         android:id="@+id/button_declarate"
         android:layout_width="160dp"
         android:layout_height="60dp"
-        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
         android:onClick="onNextActivityDeclatarate"
         android:text="@string/button_strings"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.326"
+        app:layout_constraintHorizontal_bias="0.123"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.954" />
+        app:layout_constraintVertical_bias="0.939" />
 
     <Button
         android:id="@+id/button_program"
         android:layout_width="160dp"
         android:layout_height="60dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
         android:text="@string/button_program"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.709"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.954" />
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toEndOf="@+id/button_declarate"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMark"
+        app:layout_constraintVertical_bias="0.871" />
 
     <EditText
         android:id="@+id/editTextName"
@@ -66,6 +66,7 @@
         android:id="@+id/editTextMark"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/mark"
         android:inputType="number"
@@ -74,13 +75,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextAge"
-        app:layout_constraintVertical_bias="0.093"
-        android:autofillHints="" />
+        app:layout_constraintVertical_bias="0.093" />
 
     <EditText
         android:id="@+id/editTextAge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/age"
         android:inputType="number"
@@ -89,13 +90,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumberGroup"
-        app:layout_constraintVertical_bias="0.037"
-        android:autofillHints="" />
+        app:layout_constraintVertical_bias="0.037" />
 
     <EditText
         android:id="@+id/editTextNumberGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/group_number"
         android:inputType="text|textCapCharacters"
@@ -105,7 +106,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextName"
         app:layout_constraintVertical_bias="0.044"
-        android:autofillHints=""
         tools:ignore="TextFields" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
