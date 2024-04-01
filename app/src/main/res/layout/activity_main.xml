@@ -52,7 +52,7 @@
         android:layout_height="wrap_content"
         android:autofillHints=""
         android:ems="10"
-        android:hint="@string/fio"
+        android:hint="@string/FIO"
         android:inputType="text|textPersonName|textCapWords"
         android:minHeight="48dp"
         android:textColorHint="#757575"

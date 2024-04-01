@@ -1,11 +1,13 @@
 <resources>
-    <string name="app_name">practice2new</string>
-    <string name="strings">Заполните поля:</string>
-    <string name="button_strings">Декларативная кнопка</string>
-    <string name="button_program">Программная кнопка</string>
-    <string name="fio">ФИО:</string>
-    <string name="mark">Желаемая оценка:</string>
-    <string name="group_number">Номер группы:</string>
-    <string name="age">Возраст:</string>
+    <string name="app_name" translatable="false">practice2new</string>
+    <string name="strings" translatable="false">Заполните поля!</string>
+    <string name="button_strings" translatable="false">Декларативная кнопка</string>
+    <string name="button_program" translatable="false">Программная кнопка</string>
+    <string name="FIO" translatable="false">ФИО: </string>
+    <string name="mark" translatable="false">Желаемая оценка: </string>
+    <string name="group_number" translatable="false">Номер группы: </string>
+    <string name="age" translatable="false">Возраст: </string>
+    <string name="student" translatable="false">Студент: </string>
+    <string name="get_back" translatable="false">Вернуться назад</string>
 
 </resources>

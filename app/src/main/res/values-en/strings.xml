@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">practice2new</string>
+    <string name="strings">Fill all fields!</string>
+    <string name="button_strings">Declaration button</string>
+    <string name="button_program">Program Button</string>
+    <string name="FIO">First and Last Name: </string>
+    <string name="mark">Wanted mark: </string>
+    <string name="group_number">Group number: </string>
+    <string name="age">Age: </string>
+    <string name="student">Student: </string>
+    <string name="get_back">Get Back</string>
+</resources>
